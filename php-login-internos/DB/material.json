@@ -1,0 +1,162 @@
+[
+    {
+        "nombre": "Albañileria",
+        "tipo": "Cursos",
+        "descripcion": "En este curso van a hondar sobre los materiales, sus apliaciones y la albañileria en general.",
+        "link": "https://drive.google.com/drive/folders/1sW-TGuKMdPYrpDFzIno8gh6glUQdhF7X?usp=sharing",
+        "imagen": "./img/albañileria.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Guia de Decoracion",
+        "tipo": "Cursos",
+        "descripcion": "Guia instructiva de decoracion de interiores.",
+        "link": "https://drive.google.com/drive/folders/1S5Asp9tn3-9B9m7EMRHCG-alBCWX01xv?usp=sharing",
+        "imagen": "./img/decoration1.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "SteelFraming | Durlock",
+         "tipo": "Cursos",
+        "descripcion": "En este curso, vas a ver el metodo de construccion en seco y su propia documentacion de obra.",
+        "link": "https://drive.google.com/drive/folders/1-9nrz5V2vBfHIyjdxHsTQlVEIWCtHCwq?usp=sharing",
+        "imagen": "./img/obra-steel-frame.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Aquitectura en AutoCAD | Principiantes",
+         "tipo": "Cursos",
+        "descripcion": "Curso de Arquitectura en AutoCAD para principiantes.",
+        "link": "https://www.youtube.com/watch?v=21ionCt8zyo",
+        "imagen": "./img/arq-para-principiantes.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "SteelFraming parte 2",
+         "tipo": "Cursos",
+        "descripcion": "Curso 2 de SteelFraming, ingenieria del sistema.",
+        "link": "https://drive.google.com/drive/folders/1KpaJwt_oS1wNUZLlS6v-XovygkdGXgUJ?usp=sharing",
+        "imagen": "./img/steelframing-2.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Tutorial Modelacion en REVIT",
+         "tipo": "Cursos",
+        "descripcion": "En este tutorial, junto a ArqManes, vas a aprender a modelar en REVIT",
+        "link": "https://www.youtube.com/watch?v=njy6im0cQCw&t=10s",
+        "imagen": "./img/modelacion-revit.jpg",
+        "ranking": "destacado"
+    },
+    {
+        "nombre": "Modelacion en SketchUp",
+         "tipo": "Cursos",
+        "descripcion": "Introduccion a la modelacion en SketchUp",
+        "link": "https://www.youtube.com/watch?v=HYg3Kiq8dRU",
+        "imagen": "./img/mqdefault.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Tutorial de Diseño Arquitectonico",
+         "tipo": "Cursos",
+        "descripcion": "No te frustres!, Hoy te explico por qué razón sentís que tu proceso de diseño no funciona!",
+        "link": "https://www.youtube.com/watch?v=FkhuVt_vudE&t=32s",
+        "imagen": "./img/mqdefault (1).jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "TwinMotion",
+         "tipo": "Cursos",
+        "descripcion": "Software de renderizado, libre y gratuito.",
+        "link": "https://www.youtube.com/watch?v=sH7cM7gX6s8",
+        "imagen": "./img/mqdefault (2).jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Planta Arquitectonica en PS",
+        "tipo": "Cursos",
+        "descripcion": "Aprenderas a diseñar una planta arquitectonica en PhotoShop!",
+        "link": "https://www.youtube.com/watch?v=gNGz0iVGqdQ",
+        "imagen": "./img/mqdefault (3).jpg",
+        "ranking": "no-destacado"
+    },
+   {
+        "nombre": "D5 RENDER",
+        "tipo": "Articulo",
+        "descripcion": "Programa de renderizado gratuito y de facil utilizacion, aqui te dejo la presentacion.",
+        "link": "https://www.youtube.com/watch?v=TmSzMIafLKg",
+        "imagen": "./img/mqdefault (4).jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Codigos de Edificacion",
+        "tipo": "Articulo",
+        "descripcion": "Codigos de edificacion de las distintas ciudades que obtuvimos.",
+        "link": "https://drive.google.com/drive/folders/1r-5bregZpcX_VULOgz1hO6PIWhfOnSNG?usp=sharing",
+        "imagen": "./img/cod-edificacion-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Drive Cursos General",
+        "tipo": "Articulo",
+        "descripcion": "Drive con cursos en general, a modo de complementacion.",
+        "link": "https://drive.google.com/drive/folders/1ESlFbZDajoJfF0EaKPiwhtfJo8pYQnG6?usp=sharing",
+        "imagen": "./img/cursos-general-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Bloques de CAD",
+        "tipo": "Articulo",
+        "descripcion": "Aqui encontrara bloques para utilizar en AutoCAD y agilizar tus tiempos!",
+        "link": "https://drive.google.com/drive/folders/11lk3aRWFwkEzwUNKHm8jGjVwycKX4p6o?usp=sharing",
+        "imagen": "./img/autocad-bloques-img.png",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Simbologia, Informacion General",
+        "tipo": "Articulo",
+        "descripcion": "En este archivo encontrara informacion de perfilerias, simbologia de planos, etc..",
+        "link": "https://drive.google.com/drive/folders/1uFMxsW1uVw0QpujVOk7VdNt_Snu9qvzt?usp=sharing",
+        "imagen": "./img/simbologia-planos-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "PDF | Fosas Septicas",
+        "tipo": "Articulo",
+        "descripcion": "Material bibliografico sobre fosas septicas.",
+        "link": "https://drive.google.com/file/d/1kav3_-wbU2gK26_lVRZX1fNDXjUhMT7s/view?usp=sharing",
+        "imagen": "./img/fosas-sep-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Libro ATLAS Detalles Constructivos",
+        "tipo": "Articulo",
+        "descripcion": "Libro constructivo con informacion tecnica y especifica.",
+        "link": "https://drive.google.com/file/d/1_5uGMfQ41XeWx1MAtbYs4yQSjdCZH8qg/view?usp=sharing",
+        "imagen": "./img/libro-atlas-img.png",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Introduccion a las Estructuras (Libro)",
+        "tipo": "Articulo",
+        "descripcion": "Introduccion hacia las estructuras de hormigon.",
+        "link": "https://drive.google.com/file/d/154VJE9LDNyUrIpXOWCjk2PEAwyW01vfo/view?usp=sharing",
+        "imagen": "./img/intro-estruc-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "S.E Libro Engel",
+        "tipo": "Articulo",
+        "descripcion": "Sistemas de Estructuras (S.E) libro Engel",
+        "link": "https://drive.google.com/file/d/11IGRfmekVrAo858W96VDfTXxPrEh99c0/view?usp=sharing",
+        "imagen": "./img/estruc-img.jpg",
+        "ranking": "no-destacado"
+    },
+    {
+        "nombre": "Flujo de Trabajo MULTIPLANTA",
+        "tipo": "Articulo",      
+        "descripcion": "Les compartimos un video de ArqManes donde explica en AutoCAD el Flujo de Trabajo Multiplanta para Arq. o Ing. Independientes",
+        "link": "https://www.youtube.com/watch?v=CdUJGmAL-WE",
+        "imagen": "./img/mqdefault (5).jpg",
+        "ranking": "destacado"
+    }
+]

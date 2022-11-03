@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "Santiago",
+        "apellidos": "Perez",
+        "pass": "1234",
+        "img": "../img/perfilPrueba.jpg",
+        "vendidos": 2
+    },
+    {
+        "nombre": "Gululu",
+        "apellidos": "Perez",
+        "pass": "1234",
+        "img": "../img/perfilPrueba.jpg",
+        "vendidos": 7
+    },
+    {
+        "nombre": "Pedro",
+        "apellidos": "Sanchez",
+        "pass": "1234",
+        "img": "../img/perfilPrueba.jpg",
+        "vendidos": 2        
+    }
+]
+

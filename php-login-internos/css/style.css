@@ -1,0 +1,428 @@
+/* VARIABLES GENERALES */
+:root {
+    --colorNaranjaClaro: #FF6A0E;
+    --colorNaranjaOscuro: #D65304;
+    --colorGrisClaro: #4B4B4B;
+    --colorGrisOscuro: #2A2A2A;
+    --colorWhiteSmoke: whitesmoke;
+    --colorAmarrilo: yellow;
+    --colorBlanco: #fff;
+    --colorNegro: rgb(0, 0, 0);
+    --fuenteprincipal: 'Nunito Sans';
+    }
+
+
+/* GENERALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /* Generales */
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    font-family: var(--fuenteprincipal);
+    margin: 0;
+    padding: 0;
+
+  }
+  
+
+  button{
+    cursor: pointer;
+  }
+
+  textarea {
+    resize: none;
+  }
+  input, textarea, button {
+    outline: none;
+    border: none;
+  }
+
+  /** Utilidades **/
+  .no-margin {
+    margin: 0;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+  .no-padding {
+    padding: 0;
+  }
+
+  .centrar-texto {
+    text-align: center;
+  }
+
+  .subrayado {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: var(--colorBlanco);
+  }
+
+
+/* CODIGO CSS MAIN */
+
+/* CONTENEDOR PRINCIPAL */
+
+.loginMain{
+    background-image: url(../img/backgroundLogin.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTENEDOR HIJO DEL PRINCIPAL */
+
+.loginMain__contenedor{
+    width: auto;
+    gap: 2rem;
+    position: relative;
+    margin-right: 20rem;
+}
+
+/* CONTENEDOR EN CONJUNTO DE TARJETAS */
+
+.loginMain__card{
+    position: relative;
+    width: 300px;
+    height: 40rem;
+    overflow: hidden;
+    
+}
+
+/* CARD 1 */
+
+.loginMain__card1{
+    background-image: url(../img/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CARD 2 */
+
+.loginMain__card2{
+    background-image: url(../img/Fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* CONTENIDO DE CARDS */
+
+.loginMain__content{
+    text-align:center;
+    transition: 1s;
+}
+
+.loginMain__title{
+    position:absolute;
+    color: var(--colorBlanco);
+    top: 80%;
+    transition: 1s;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(0px 2px 1px black);
+}
+
+.loginMain__title h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    filter: drop-shadow(0px -2px 1px black);
+}
+
+.loginMain__copy{
+    position:absolute;
+    top: 100%;
+    transition: 1s;
+}
+
+.loginMain__copy p{
+  color:  var(--colorBlanco);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.925rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.loginMain__copy button{
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 1rem 3.5rem;
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: var(--colorBlanco);
+  background-color: var(--colorNaranjaClaro);
+  transition: 1s;
+}
+
+/* BACKGROUND TARJETA OSCURO */
+.loginMain__background{
+  position: absolute;
+  top:39rem;
+  height: 77rem;
+  width: 30rem;
+  transition: 4s;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+}
+
+/* HOVERS */
+
+/* HOVER BTN */
+
+.loginMain__copy button:hover {
+  background-color: var(--colorNaranjaOscuro);
+  transition: 1s;
+
+}
+
+/* CARD 1 */
+/* HOVER BACKGROUND OSCURO */
+
+
+.loginMain__card1:hover .loginMain__background{
+  top: -34rem;
+  transition: 1s;
+}
+
+/* HOVER TITULO */
+.loginMain__card1:hover .loginMain__title{
+    top: 10%;
+    transition: .5s;
+}
+/* HOVER CONTENIDO; TEXTOS, BTN */
+.loginMain__card1:hover .loginMain__copy{
+    top: 18%;
+    transition: .7s;
+
+}
+
+/* CARD 2 */
+/* HOVER BACKGROUND OSCURO */
+.loginMain__card2:hover .loginMain__background{
+  top: -34rem;
+  transition: 1s;
+}
+/* HOVER TITULO */
+.loginMain__card2:hover .loginMain__title{
+    top: 11%;
+    transition: .5s;
+}
+/* HOVER CONTENIDO; TEXTOS, BTN */
+.loginMain__card2:hover .loginMain__copy{
+    top: 20%;
+    transition: .7s;
+
+}
+
+
+/* CONTENEDOR PADRE DEL FORM LOGIN */
+
+.loginMain__login{
+    flex-direction: column;
+    width: 320px;
+    height: 420px;
+    background-color: var(--colorBlanco);
+    padding: 7rem 3rem;
+}
+
+.login__logo {
+    margin: auto;
+    width: 20rem;
+    height: 8rem;
+    margin-top: -11rem;
+    margin-bottom: 0;
+}
+
+.loginMain__login h1 {
+    text-align:center;
+    font-size:2.2rem;
+    margin-top: 2rem;
+}
+
+/* Login form */
+
+.login__formulario{
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.login__formulario label{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--colorGrisOscuro);
+}
+
+.login__formulario input{
+    border-bottom: 1px solid var(--colorGrisOscuro);
+    background: transparent;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: var(--colorGrisOscuro);
+
+}
+
+
+.login__formulario .entrada{
+    cursor: pointer;
+    border:none;
+    background: var(--colorNaranjaClaro);
+    color: var(--colorBlanco);
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.login__formulario .entrada:hover{
+    background: var(--colorNaranjaOscuro);
+    color: var(--colorNegro);
+    transition: 1s;
+
+}
+
+.login__formulario a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--colorGrisClaro);
+    font-weight: bold;
+    transition: 1s;
+}
+
+.login__formulario a:hover{
+  color: var(--colorNaranjaClaro);
+  transition: 1s;
+}
+
+.alert{
+  text-align: center;
+  font-size:1.5rem;
+  margin-top: .5rem;
+  height: 50px;
+  color: var(--colorNaranjaClaro);
+}
+
+
+/* MEDIA QUERYS */
+
+
+@media (min-width: 966px ) and (max-width: 1150px) {
+    /* CONTENEDOR PRINCIPAL */
+
+    .loginMain__contenedor{
+      margin-right: 2rem;
+  }
+
+}
+
+@media (min-width: 280px ) and (max-width: 965px ){
+  .loginMain{
+    flex-direction: column-reverse;
+  }
+  .loginMain__login{
+    width: 600px;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+  }
+
+  .login__formulario {
+    flex-direction: column;
+    margin-top: -7rem;
+}
+
+  .loginMain__card{
+    height: 23rem;
+  }
+
+  .loginMain__contenedor{
+    margin:auto;
+    margin-top: 0rem;
+  }
+
+  /* btn enviar */
+
+  .login__formulario input {
+    height:2.5rem;
+  }
+
+  /* TITULO LOGIN */
+  .loginMain__login h1{
+    margin-top: -1rem;
+    margin-bottom: 7rem;
+  }
+
+  /* texto de tarjetas */
+  .loginMain__title h2 {
+    font-size: 1.8rem;
+}
+.loginMain__card1:hover .loginMain__title{
+  top: 0%;
+}
+.loginMain__card2:hover .loginMain__title{
+  top: 0%;
+}
+  .loginMain__copy p{
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 280px ) and (max-width: 599px ){
+  .loginMain__login {
+    width: 258px;
+    height: auto;
+    padding-bottom: 1rem;
+    margin-top: 4rem;
+  }
+
+  .login__formulario a{
+    margin:auto;
+    margin-top: -1rem;
+
+  }
+
+  .loginMain__contenedor{
+    width: 279px;
+  }
+
+  .loginMain__card {
+    height: 28rem;
+    width: 280px;
+   
+}
+.alert{
+  text-align: center;
+  font-size:1.3rem;
+  margin-top: .5rem;
+  height: 30px;
+  
+  color: var(--colorNaranjaClaro);
+}
+}
+
+
+
+
